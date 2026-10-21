@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/color_default_background">
+    <TextView
+        android:id="@+id/municipality_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/color_text_dark"
+        android:textSize="24sp" />
+    <ImageView
+        android:id="@+id/municipality_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/city_image_height"
+        android:contentDescription="@string/city_image_description"
+        android:scaleType="centerCrop" />
+    <ScrollView
+        android:id="@+id/information_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/municipality_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_dark"
+            android:textSize="18sp"
+            android:lineSpacingExtra="4dp" />
+    </ScrollView>
+    <Button
+        android:id="@+id/visit_site_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp"
+        android:enabled="false"
+        android:text="@string/visit_site"
+        android:textAllCaps="false" />
+</LinearLayout>
