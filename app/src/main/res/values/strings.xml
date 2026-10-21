@@ -2,4 +2,13 @@
 <resources>
     <string name="app_name">Chinese Municipalities</string>
     <string name="hello_world">Hello World!</string>
+    <string name="main_title">Municipalities in China</string>
+    <string name="input_label">I want to know about:</string>
+    <string name="input_hint">Name of a municipality</string>
+    <string name="map_description">Map of the four municipalities in China</string>
+    <string name="city_image_description">Municipality photograph</string>
+    <string name="invalid_input">Enter Beijing, Shanghai, Tianjin or Chongqing.</string>
+    <string name="invalid_municipality">No valid municipality was selected.</string>
+    <string name="visit_site">Visit site</string>
+    <string name="no_browser">No application can open this website.</string>
 </resources>
