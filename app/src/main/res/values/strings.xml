@@ -11,4 +11,8 @@
     <string name="invalid_municipality">No valid municipality was selected.</string>
     <string name="visit_site">Visit site</string>
     <string name="no_browser">No application can open this website.</string>
+    <string name="website_beijing" translatable="false">https://english.beijing.gov.cn/</string>
+    <string name="website_shanghai" translatable="false">https://english.shanghai.gov.cn/</string>
+    <string name="website_chongqing" translatable="false">https://english.cq.gov.cn/index.html</string>
+    <string name="website_tianjin" translatable="false">https://en.tj.gov.cn/</string>
 </resources>
